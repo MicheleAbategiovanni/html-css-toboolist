@@ -61,7 +61,7 @@ main{
 }
 
 /* Elementi da mettere in display-inline block */
-#stringa, .text, .check, .error, .editorial{
+.text, .check, .error, .editorial{
     display: inline-block;
 }
 
@@ -86,4 +86,9 @@ main{
     border-radius: 10px;
     padding: 5px;
     font-size: 12px;
+}
+
+.stringa{
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
