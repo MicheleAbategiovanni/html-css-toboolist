@@ -58,6 +58,11 @@ main{
 
 .text{
     display: inline-block;   
+    margin-left: 5px;
+}
+
+.text-title{
+    display: inline-block;
 }
 
 /* Elementi da mettere in display-inline block */
