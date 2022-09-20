@@ -70,6 +70,15 @@ main{
     display: inline-block;
 }
 
+.arrowhead{
+    display: inline-block;
+    border-top: 5px solid black;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    vertical-align: bottom;
+}
+
 /* Elementi da mettere in display-inline block */
 .text, .check, .error, .editorial, .q1, .recruiting, .mobile, .website, .sales{
     display: inline-block;
