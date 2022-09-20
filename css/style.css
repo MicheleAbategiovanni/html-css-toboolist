@@ -48,8 +48,10 @@ main{
 }
 
 .section{
+    background-color: white;
     padding: 10px 50px;
-    border: 1px solid ;
+    border: 1px solid white;
     border-radius: 0 0 10px 10px;
+    margin-top: 2px;
 }
 
