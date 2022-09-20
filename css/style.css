@@ -60,7 +60,7 @@ main{
 }
 
 /* Elementi da mettere in display-inline block */
-.text, .check, .error, .editorial, .q1, .recruiting, .mobile{
+.text, .check, .error, .editorial, .q1, .recruiting, .mobile, .website, .sales{
     display: inline-block;
 }
 
@@ -121,6 +121,24 @@ main{
 
 .mobile{
     background-color: rgb(237 141 40);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 12px;   
+}
+
+.website{
+    background-color: rgb(205 73 144);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 12px;   
+}
+
+.sales{
+    background-color: rgb(162 193 30);
     color: white;
     border: 1px solid white;
     border-radius: 10px;
