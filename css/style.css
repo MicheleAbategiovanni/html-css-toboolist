@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header, h1{
+    display: inline-block;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    background-color: rgb(220, 226, 226);
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    padding: 40px;
+}
+
+.section-head{
+    padding: 10px 50px;
+    border: 1px solid white;
+    border-radius: 10px 10px 0 0;
+    background-color: white;
+}
+
+.badge-task{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(77, 174, 238);
+    border: 1px solid black;
+    border-radius: 5px;
+    color:white;
+}
+
+.badge-section{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color:grey;
+}
+
+.section{
+    padding: 10px 50px;
+    border: 1px solid ;
+    border-radius: 0 0 10px 10px;
+}
+
